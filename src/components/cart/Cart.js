@@ -14,7 +14,8 @@ function Cart(props){
         for(let i=0;i<params.length;i++){
         sum = sum + params[i].price 
         }
-        return sum
+
+        return Math.floor( sum)
     //    console.log(sum)
     }
 
@@ -56,7 +57,9 @@ function Cart(props){
                     </div>
     
     </div>
-    )}):''}
+    )}): <div className='empty-cart'> <h2>Your Cart Is Empty</h2>
+        <img  src="https://www.nicepng.com/png/full/322-3224210_your-cart-is-currently-empty-empty-shopping-cart.png"/>
+        </div>}
     
 
 

@@ -116,3 +116,18 @@
         font-size: 15px;
         
       }
+
+      .empty-cart{
+        box-shadow: rgb(0 0 0 / 35%) 0px 0px 2px;
+        height: 400px;
+        width: 950px;
+        /* position: fixed; */
+        /* right: 60px; */
+        border-radius: 5px;
+        /* margin: auto; */
+        text-align: center;
+      }
+
+      .empty-cart img{
+        width: 300px;
+      }

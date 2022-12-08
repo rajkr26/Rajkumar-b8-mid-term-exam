@@ -92,7 +92,9 @@ function Favorites(props) {
     
                             
     
-                   </div>)}):''}
+                   </div>)}):<div className='empty-fav'> <h2>Nothing Is in Favorites</h2>
+        <img  src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Broken_heart.svg"/>
+        </div>}
            
             
         </div>
